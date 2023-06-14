@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    
+    background-image:URL("PV.jpg");
+    background-size: cover;
+    }
+    div{
+        width: 500px;
+        height: 500px;
+        border: 15PX solid aquamarine;
+        margin:0 auto;
+        padding: 100px;
+        box-sizing: border-box;
+
+    }
+</style>
+<body>
+    <center>
+        <div class="container">
+            <h2><b>TEXT MESSAGE</b></h2>
+            <label>Enter the message </label><br></br>
+            <input type="text" name="message-input" id="message-input">
+            <br></br>
+            <p>
+                <button id="click" onclick="getMessage()">Submit</button>
+                
+            </p>
+            <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+            <footer>
+                <p>Just one small positive thought in the morning can change your whole day.</p>
+            </footer>
+    
+        </div>
+        
+    </center>
+   <script src="message.js"></script>
+    
+</body>
+</html>
